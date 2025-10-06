@@ -1,0 +1,5 @@
+# Streamlit web app
+streamlit==1.49.1
+
+# PyBullet physics engine
+pybullet==3.2.7
