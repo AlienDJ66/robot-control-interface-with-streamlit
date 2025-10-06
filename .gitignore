@@ -1,0 +1,13 @@
+# Swap / temporary files
+*.swp
+.command.txt.swp
+
+# Jupyter notebook checkpoints (folder)
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local testing notebook
+testing.ipynb
