@@ -5,7 +5,7 @@ import time
 import math
 
 class RobotArm6DOF:
-    def __init__(self, urdf_path, base_pos, base_orn, ee_link_index):
+    def __init__(self, base_pos, base_orn, ee_link_index):
         """
         Initialize the robot arm.
         :param urdf_path: Path to URDF model
@@ -13,7 +13,7 @@ class RobotArm6DOF:
         :param base_orn: Base orientation quaternion [x,y,z,w]
         :param ee_link_index: Index of end-effector link
         """
-        self.robot_id = p.loadURDF(urdf_path, base_pos, base_orn, useFixedBase=True)
+        self.robot_id = p.loadURDF("kuka_iiwa/model.urdf", base_pos, base_orn, useFixedBase=True)
         self.ee_link_index = ee_link_index
         self.num_joints = p.getNumJoints(self.robot_id)
         self.joint_indices = [i for i in range(self.num_joints)]

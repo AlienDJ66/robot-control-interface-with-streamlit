@@ -10,7 +10,7 @@ How to run
    Run the first cell in testing.ipynb to install streamlit and pybulletf
 5. In the Jupyter Desktop, open a terminal and go to /home/jovyan/work
 6. Run this to start the UI it will be accessed at http://localhost:8501/ :
-  streamlit run app.py --server.headless true --server.port 8501 
+  streamlit run src/app.py --server.headless true --server.port 8501 
 
 metric
 //todo find the slides to fill

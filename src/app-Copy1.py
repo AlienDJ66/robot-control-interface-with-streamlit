@@ -19,9 +19,9 @@ if "target_marker" not in st.session_state:
 # ------------------------------
 # UI Inputs
 # ------------------------------
-target_x = st.number_input("Target X", value=0.5, min_value=-1.0, max_value=1.0, step=0.01)
-target_y = st.number_input("Target Y", value=0.0, min_value=-1.0, max_value=1.0, step=0.01)
-target_z = st.number_input("Target Z", value=0.5, min_value=0.0, max_value=1.0, step=0.01)
+target_x = st.number_input("Target X", value=0.5, step=0.05)
+target_y = st.number_input("Target Y", value=0.0, step=0.05)
+target_z = st.number_input("Target Z", value=0.5, step=0.05)
 
 speed = st.slider("Joint Speed (deg/s)", min_value=0, max_value=360, value=30, step=1)
 go_button = st.button("Go to Position")
