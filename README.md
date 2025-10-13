@@ -6,7 +6,7 @@ Exclusion of non programmers: Dependance on coding means that individuals like m
 This highlights the need of accessible and intuitive tools. A solution would offer a graphical user interface for ease of control and operation. It allows for a wider range of users to participate in design and testing and accelerate innovation and advancement.
 
 
-How to run
+# How to run
 1. Download the Docker image of this ROS2 built:  intel4coro/jupyter-ros2:jazzy-py3.12
 2. Using this command to create a container:
   docker run -d -p 8888:8888 -p 8501:8501 -v <path_to_folder_in_your_own_computer>:/home/jovyan/work --name my_jupyter_ros2 intel4coro/jupyter-ros2:jazzy-py3.12 jupyter lab --NotebookApp.token=''
@@ -18,7 +18,7 @@ How to run
 7. Run this to start the UI, it will be accessed at http://localhost:8501/ :
   streamlit run src/app.py --server.headless true --server.port 8501 
 
-Success Metrics:
+# Success Metrics:
 
 Start/Stop: Start and stop the PyBullet simulation
 Go-to-pose: Upon user input the target pose and hit move button, the robot in simulation should perform the moving action towards the target. 
