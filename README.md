@@ -1,5 +1,10 @@
 # problem
-//todo find the slides and fill out the problem section
+-Coding Dependency: Many robotics simulations rely on command line interfaces or require to write code. This approach is powerful but can be time consuming.
+
+-Exclusion of non programmers: Dependance on coding means that individuals like mechanical engineers, designers and managers who test a robot's design or operations cannot do so without a programmer's assistance. This approach slows down the design cycle.
+
+-This highlights the need of accessible and intuitive tools. A solution would offer a graphical user interface for ease of control and operation. It allows for a wider range of users to participate in design and testing and accelerate innovation and advancement.
+
 
 How to run
 1. Download the Docker image of this ROS2 built:  intel4coro/jupyter-ros2:jazzy-py3.12
@@ -13,5 +18,10 @@ How to run
 7. Run this to start the UI, it will be accessed at http://localhost:8501/ :
   streamlit run src/app.py --server.headless true --server.port 8501 
 
-metric
-//todo find the slides to fill
+Success Metrics:
+
+Start/Stop: Start and stop the PyBullet simulation
+Go-to-pose: Upon user input the target pose and hit move button, the robot in simulation should perform the moving action towards the target. 
+Speed slider: When a user changes the robot speed using a slider, the robot in the simulation should change its moving speed in real time. The speed slider will have a minimum and maximum speed preconfigured to reasonable numbers
+Smooth UI with minimal latency and should be intuitive to user.
+
