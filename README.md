@@ -1,9 +1,9 @@
 # problem
--Coding Dependency: Many robotics simulations rely on command line interfaces or require to write code. This approach is powerful but can be time consuming.
+Coding Dependency: Many robotics simulations rely on command line interfaces or require to write code. This approach is powerful but can be time consuming.
 
--Exclusion of non programmers: Dependance on coding means that individuals like mechanical engineers, designers and managers who test a robot's design or operations cannot do so without a programmer's assistance. This approach slows down the design cycle.
+Exclusion of non programmers: Dependance on coding means that individuals like mechanical engineers, designers and managers who test a robot's design or operations cannot do so without a programmer's assistance. This approach slows down the design cycle.
 
--This highlights the need of accessible and intuitive tools. A solution would offer a graphical user interface for ease of control and operation. It allows for a wider range of users to participate in design and testing and accelerate innovation and advancement.
+This highlights the need of accessible and intuitive tools. A solution would offer a graphical user interface for ease of control and operation. It allows for a wider range of users to participate in design and testing and accelerate innovation and advancement.
 
 
 How to run
