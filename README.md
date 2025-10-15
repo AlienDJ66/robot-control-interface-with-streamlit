@@ -5,7 +5,6 @@ Exclusion of non programmers: Dependance on coding means that individuals like m
 
 This highlights the need of accessible and intuitive tools. A solution would offer a graphical user interface for ease of control and operation. It allows for a wider range of users to participate in design and testing and accelerate innovation and advancement.
 
-
 # How to run
 1. Download the Docker image of this ROS2 built:  intel4coro/jupyter-ros2:jazzy-py3.12
 2. Using this command to create a container:
@@ -25,3 +24,5 @@ Go-to-pose: Upon user input the target pose and hit move button, the robot in si
 Speed slider: When a user changes the robot speed using a slider, the robot in the simulation should change its moving speed in real time. The speed slider will have a minimum and maximum speed preconfigured to reasonable numbers
 Smooth UI with minimal latency and should be intuitive to user.
 
+# demo
+Demo videos are in data folder
