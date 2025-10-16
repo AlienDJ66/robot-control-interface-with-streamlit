@@ -1,10 +1,10 @@
 ## Robot Control Dashboard - Local Web UI for PyBullet Simulation
 TEAM 4 : 
-Delphine Oben
-Rod Raemon 
-Ruozi Jiao
-Manuel Gonzalez
-Bolun Du
+Delphine Oben, 
+Rod Raemon, 
+Ruozi Jiao, 
+Manuel Gonzalez, 
+Bolun Du, 
 Yuerong Wu _Cathy
 
 # problem
