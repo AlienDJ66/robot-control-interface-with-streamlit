@@ -1,3 +1,12 @@
+## Robot Control Dashboard - Local Web UI for PyBullet Simulation
+TEAM 4 : 
+Delphine Oben
+Rod Raemon 
+Ruozi Jiao
+Manuel Gonzalez
+Bolun Du
+Yuerong Wu _Cathy
+
 # problem
 Coding Dependency: Many robotics simulations rely on command line interfaces or require to write code. This approach is powerful but can be time consuming.
 
